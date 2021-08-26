@@ -2,9 +2,11 @@
 
 # add .env file on the root directory of the project then add the following  variables
 
-MONGODB_URI ='your_mongodb_uri'
-JWT_SECRET = 'your_jwt_secrete '
-JWT_EXP = 'your_jwt_token_expiration_time'
+$ MONGODB_URI ='your_mongodb_uri'
+
+$ JWT_SECRET = 'your_jwt_secrete '
+
+$ JWT_EXP = 'your_jwt_token_expiration_time'
 
 ## Installation
 
