@@ -4,7 +4,8 @@
   "description": "A test for creating a simple api response",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start:prod": "node ./server.js",
+    "start:dev": "nodemon ./server.js"
   },
   "keywords": [
     "node",
@@ -14,6 +15,11 @@
   "author": "David",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.0"
   }
 }

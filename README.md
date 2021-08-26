@@ -1,5 +1,25 @@
-# Node-Test
-Interview Test Question
+# Node-Test-1
 
-- Clone the repo
-- Make it return 'it works!' at http://localhost:3000/
+# add .env file on the root directory of the project then add the following  variables
+
+MONGODB_URI ='your_mongodb_uri'
+JWT_SECRET = 'your_jwt_secrete '
+JWT_EXP = 'your_jwt_token_expiration_time'
+
+## Installation
+
+$ npm i 
+
+## Running the app
+
+# development mode 
+
+$ npm run start:dev 
+ 
+# production mode
+
+$ npm run start:prod
+
+
+
+
